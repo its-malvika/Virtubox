@@ -1,0 +1,127 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+3 0 obj
+<< /Length 4139 >>
+stream
+0.75 0.25 0.12 rg 52 785 7 28 re f
+0.25 0.10 0.06 rg /F2 20 Tf 1 0 0 1 68.0 792.0 Tm (RISK REGISTER) Tj
+0.42 0.34 0.30 rg /F1 9 Tf 1 0 0 1 68.0 777.0 Tm (Potential issues requiring verification during review and execution.) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 754.0 Tm (No application source was available, so none of the items below is a confirmed defect. Each is a) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 741.8 Tm (potential risk area requiring verification during code review or execution. ) Tj
+0.96 0.93 0.90 rg 52 705.6 491 23 re f
+0.36 0.15 0.08 rg /F2 12.5 Tf 1 0 0 1 59.0 721.6 Tm (BUG-01 - Session may remain active after logout) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 696.6 Tm (Description: The logout operation may clear only the browser state while leaving a server-side session) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 684.4 Tm (or bearer token valid.) Tj
+0.65 0.10 0.10 rg /F2 9.2 Tf 1 0 0 1 52.0 665.2 Tm (Severity: Critical) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 646.0 Tm (Reason / Impact: A copied token could continue to access task data after logout.) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 626.8 Tm (Related Area: Authentication and session handling) Tj
+0.96 0.93 0.90 rg 52 586.5999999999999 491 23 re f
+0.36 0.15 0.08 rg /F2 12.5 Tf 1 0 0 1 59.0 602.6 Tm (BUG-02 - Task ownership may not be checked on every endpoint) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 577.6 Tm (Description: A task endpoint may trust a task ID or user ID supplied by the client instead of checking) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 565.4 Tm (ownership on the server.) Tj
+0.65 0.10 0.10 rg /F2 9.2 Tf 1 0 0 1 52.0 546.2 Tm (Severity: Critical) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 527.0 Tm (Reason / Impact: User B could read, edit, or delete User A's tasks through an IDOR-style request.) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 507.8 Tm (Related Area: Task API authorization) Tj
+0.96 0.93 0.90 rg 52 467.5999999999999 491 23 re f
+0.36 0.15 0.08 rg /F2 12.5 Tf 1 0 0 1 59.0 483.6 Tm (BUG-03 - Password handling may be unsafe) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 458.6 Tm (Description: Passwords may use weak hashing, appear in logs, or be accepted without a minimum-strength) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 446.4 Tm (rule.) Tj
+0.65 0.10 0.10 rg /F2 9.2 Tf 1 0 0 1 52.0 427.2 Tm (Severity: Critical) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 408.0 Tm (Reason / Impact: A database or log leak could expose user accounts.) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 388.8 Tm (Related Area: Registration and login) Tj
+0.96 0.93 0.90 rg 52 348.59999999999997 491 23 re f
+0.36 0.15 0.08 rg /F2 12.5 Tf 1 0 0 1 59.0 364.6 Tm (BUG-04 - API validation may be weaker than form validation) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 339.6 Tm (Description: The browser may reject bad values while the server accepts direct requests with empty,) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 327.4 Tm (oversized, or wrong-type fields.) Tj
+0.70 0.32 0 rg /F2 9.2 Tf 1 0 0 1 52.0 308.2 Tm (Severity: Major) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 289.0 Tm (Reason / Impact: Invalid records or malicious values could be stored by bypassing the UI.) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 269.8 Tm (Related Area: Server-side validation) Tj
+0.96 0.93 0.90 rg 52 229.60000000000002 491 23 re f
+0.36 0.15 0.08 rg /F2 12.5 Tf 1 0 0 1 59.0 245.6 Tm (BUG-05 - Repeated create requests may create duplicate tasks) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 220.6 Tm (Description: A double click or network retry may be processed as multiple create operations.) Tj
+0.70 0.32 0 rg /F2 9.2 Tf 1 0 0 1 52.0 201.4 Tm (Severity: Major) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 182.2 Tm (Reason / Impact: Users may receive duplicate records, especially when the first response is delayed.) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 163.0 Tm (Related Area: Create task and request idempotency) Tj
+0.08 0.39 0.42 rg 0 0 595 28 re f
+1 1 1 rg /F2 7.5 Tf 1 0 0 1 36.0 10.0 Tm (VIRTUBOX  /  QUALITY REVIEW) Tj
+1 1 1 rg /F2 7.5 Tf 1 0 0 1 517.0 10.0 Tm (PAGE 1) Tj
+endstream
+endobj
+4 0 obj
+<< /Length 3746 >>
+stream
+0.75 0.25 0.12 rg 52 785 7 28 re f
+0.25 0.10 0.06 rg /F2 20 Tf 1 0 0 1 68.0 792.0 Tm (RISK REGISTER) Tj
+0.42 0.34 0.30 rg /F1 9 Tf 1 0 0 1 68.0 777.0 Tm (Potential issues requiring verification during review and execution.) Tj
+0.96 0.93 0.90 rg 52 737 491 23 re f
+0.36 0.15 0.08 rg /F2 12.5 Tf 1 0 0 1 59.0 753.0 Tm (BUG-06 - Delete may update the UI before persistence succeeds) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 728.0 Tm (Description: The client may remove a row immediately and ignore a failed database delete.) Tj
+0.70 0.32 0 rg /F2 9.2 Tf 1 0 0 1 52.0 708.8 Tm (Severity: Major) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 689.6 Tm (Reason / Impact: The task appears deleted until refresh, then returns, which can lead to incorrect) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 677.4 Tm (user decisions.) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 658.2 Tm (Related Area: Delete flow and error handling) Tj
+0.96 0.93 0.90 rg 52 617.9999999999999 491 23 re f
+0.36 0.15 0.08 rg /F2 12.5 Tf 1 0 0 1 59.0 634.0 Tm (BUG-07 - Invalid IDs may cause an unhandled server error) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 609.0 Tm (Description: Malformed or nonexistent task IDs may reach a database query without validation or a) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 596.8 Tm (not-found branch.) Tj
+0.70 0.32 0 rg /F2 9.2 Tf 1 0 0 1 52.0 577.6 Tm (Severity: Major) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 558.4 Tm (Reason / Impact: A normal bad request could produce a 500 error or expose database details.) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 539.2 Tm (Related Area: Task routes and input validation) Tj
+0.96 0.93 0.90 rg 52 498.9999999999998 491 23 re f
+0.36 0.15 0.08 rg /F2 12.5 Tf 1 0 0 1 59.0 515.0 Tm (BUG-08 - Stored task text may not be output-encoded) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 490.0 Tm (Description: Task titles may be rendered as HTML instead of text.) Tj
+0.70 0.32 0 rg /F2 9.2 Tf 1 0 0 1 52.0 470.8 Tm (Severity: Major) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 451.6 Tm (Reason / Impact: A malicious title could execute stored XSS when the task list is opened.) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 432.4 Tm (Related Area: Task display and frontend rendering) Tj
+0.96 0.93 0.90 rg 52 392.1999999999998 491 23 re f
+0.36 0.15 0.08 rg /F2 12.5 Tf 1 0 0 1 59.0 408.2 Tm (BUG-09 - Concurrent edits may overwrite newer data) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 383.2 Tm (Description: Two updates may be accepted without a version check or last-write rule.) Tj
+0.70 0.32 0 rg /F2 9.2 Tf 1 0 0 1 52.0 364.0 Tm (Severity: Major) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 344.8 Tm (Reason / Impact: One user's newer change can be silently lost when requests finish out of order.) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 325.6 Tm (Related Area: Edit task and database consistency) Tj
+0.96 0.93 0.90 rg 52 285.39999999999986 491 23 re f
+0.36 0.15 0.08 rg /F2 12.5 Tf 1 0 0 1 59.0 301.4 Tm (BUG-10 - Login errors may reveal registered accounts) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 276.4 Tm (Description: The response or timing for an unknown email may differ from the response for a wrong) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 264.2 Tm (password.) Tj
+0.30 0.46 0.12 rg /F2 9.2 Tf 1 0 0 1 52.0 245.0 Tm (Severity: Minor) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 225.8 Tm (Reason / Impact: Attackers could enumerate valid accounts and target them with password attacks.) Tj
+0.08 0.12 0.17 rg /F1 9.2 Tf 1 0 0 1 52.0 206.6 Tm (Related Area: Login error handling and rate limiting) Tj
+0.08 0.39 0.42 rg 0 0 595 28 re f
+1 1 1 rg /F2 7.5 Tf 1 0 0 1 36.0 10.0 Tm (VIRTUBOX  /  QUALITY REVIEW) Tj
+1 1 1 rg /F2 7.5 Tf 1 0 0 1 517.0 10.0 Tm (PAGE 2) Tj
+endstream
+endobj
+5 0 obj
+<< /Type /Pages /Kids [6 0 R 7 0 R] /Count 2 >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 5 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 3 0 R >>
+endobj
+7 0 obj
+<< /Type /Page /Parent 5 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 4 0 R >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 5 0 R >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000085 00000 n 
+0000000160 00000 n 
+0000004351 00000 n 
+0000008149 00000 n 
+0000008212 00000 n 
+0000008348 00000 n 
+0000008484 00000 n 
+trailer
+<< /Size 9 /Root 8 0 R >>
+startxref
+8533
+%%EOF

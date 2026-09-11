@@ -1,0 +1,673 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+3 0 obj
+<< /Length 28873 >>
+stream
+0.08 0.39 0.42 rg 37 741 7 28 re f
+0.06 0.16 0.18 rg /F2 20 Tf 1 0 0 1 53.0 748.0 Tm (TEST CASE CATALOGUE) Tj
+0.28 0.38 0.40 rg /F1 9 Tf 1 0 0 1 53.0 733.0 Tm (Structured validation coverage for the VirtuBox task application.) Tj
+0.08 0.39 0.42 rg 37 683 1150 27 re f
+1 1 1 rg /F2 7.1 Tf 1 0 0 1 41.0 699.0 Tm (Test Case ID) Tj
+1 1 1 rg /F2 7.1 Tf 1 0 0 1 99.0 699.0 Tm (Module) Tj
+1 1 1 rg /F2 7.1 Tf 1 0 0 1 161.0 699.0 Tm (Test Scenario) Tj
+1 1 1 rg /F2 7.1 Tf 1 0 0 1 285.0 699.0 Tm (Precondition) Tj
+1 1 1 rg /F2 7.1 Tf 1 0 0 1 411.0 699.0 Tm (Test Steps) Tj
+1 1 1 rg /F2 7.1 Tf 1 0 0 1 571.0 699.0 Tm (Test Data) Tj
+1 1 1 rg /F2 7.1 Tf 1 0 0 1 681.0 699.0 Tm (Expected Result) Tj
+1 1 1 rg /F2 7.1 Tf 1 0 0 1 869.0 699.0 Tm (Type) Tj
+1 1 1 rg /F2 7.1 Tf 1 0 0 1 869.0 690.0 Tm (\(Positive/Negative/Edge\)) Tj
+0.94 0.98 0.97 rg 37 657 1150 26 re f
+0.64 0.77 0.76 RG 0.3 w
+37 683 m 37 657 l S
+95 683 m 95 657 l S
+157 683 m 157 657 l S
+281 683 m 281 657 l S
+407 683 m 407 657 l S
+567 683 m 567 657 l S
+677 683 m 677 657 l S
+865 683 m 865 657 l S
+947 683 m 947 657 l S
+37 657 m 1187 657 l S
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 41.0 674.0 Tm (TC-REG-01) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 99.0 674.0 Tm (Registration) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 161.0 674.0 Tm (Register with valid details) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 285.0 674.0 Tm (Email is not registered) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 674.0 Tm (Submit the registration form with valid) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 665.5 Tm (values) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 571.0 674.0 Tm (Name, unique email, valid) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 571.0 665.5 Tm (password) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 674.0 Tm (Account is created once) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 869.0 674.0 Tm (Positive) Tj
+0.64 0.77 0.76 RG 0.3 w
+37 657 m 37 631 l S
+95 657 m 95 631 l S
+157 657 m 157 631 l S
+281 657 m 281 631 l S
+407 657 m 407 631 l S
+567 657 m 567 631 l S
+677 657 m 677 631 l S
+865 657 m 865 631 l S
+947 657 m 947 631 l S
+37 631 m 1187 631 l S
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 41.0 648.0 Tm (TC-REG-02) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 99.0 648.0 Tm (Registration) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 161.0 648.0 Tm (Register with existing email) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 285.0 648.0 Tm (Account already exists) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 648.0 Tm (Submit the same registration again) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 571.0 648.0 Tm (Existing email) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 648.0 Tm (Request is rejected and no duplicate account is) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 639.5 Tm (created) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 869.0 648.0 Tm (Negative) Tj
+0.94 0.98 0.97 rg 37 613.5 1150 17.5 re f
+0.64 0.77 0.76 RG 0.3 w
+37 631 m 37 613.5 l S
+95 631 m 95 613.5 l S
+157 631 m 157 613.5 l S
+281 631 m 281 613.5 l S
+407 631 m 407 613.5 l S
+567 631 m 567 613.5 l S
+677 631 m 677 613.5 l S
+865 631 m 865 613.5 l S
+947 631 m 947 613.5 l S
+37 613.5 m 1187 613.5 l S
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 41.0 622.0 Tm (TC-REG-03) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 99.0 622.0 Tm (Registration) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 161.0 622.0 Tm (Invalid email format) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 285.0 622.0 Tm (Registration page is available) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 622.0 Tm (Submit the form with malformed email) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 571.0 622.0 Tm (user@, user.example.com) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 622.0 Tm (Validation error is returned; account is not created) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 869.0 622.0 Tm (Negative) Tj
+0.64 0.77 0.76 RG 0.3 w
+37 613.5 m 37 587.5 l S
+95 613.5 m 95 587.5 l S
+157 613.5 m 157 587.5 l S
+281 613.5 m 281 587.5 l S
+407 613.5 m 407 587.5 l S
+567 613.5 m 567 587.5 l S
+677 613.5 m 677 587.5 l S
+865 613.5 m 865 587.5 l S
+947 613.5 m 947 587.5 l S
+37 587.5 m 1187 587.5 l S
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 41.0 604.5 Tm (TC-REG-04) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 99.0 604.5 Tm (Registration) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 161.0 604.5 Tm (Missing or empty required fields) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 285.0 604.5 Tm (Registration page is available) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 604.5 Tm (Submit with blank fields, one at a time and) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 596.0 Tm (all together) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 571.0 604.5 Tm (Empty name, email, or) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 571.0 596.0 Tm (password) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 604.5 Tm (Request is rejected with field-level errors) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 869.0 604.5 Tm (Negative) Tj
+0.94 0.98 0.97 rg 37 561.5 1150 26 re f
+0.64 0.77 0.76 RG 0.3 w
+37 587.5 m 37 561.5 l S
+95 587.5 m 95 561.5 l S
+157 587.5 m 157 561.5 l S
+281 587.5 m 281 561.5 l S
+407 587.5 m 407 561.5 l S
+567 587.5 m 567 561.5 l S
+677 587.5 m 677 561.5 l S
+865 587.5 m 865 561.5 l S
+947 587.5 m 947 561.5 l S
+37 561.5 m 1187 561.5 l S
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 41.0 578.5 Tm (TC-REG-05) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 99.0 578.5 Tm (Registration) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 161.0 578.5 Tm (Weak password or boundary length) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 285.0 578.5 Tm (Password policy exists or is) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 285.0 570.0 Tm (defined) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 578.5 Tm (Try values at, below, and above the allowed) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 570.0 Tm (limit) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 571.0 578.5 Tm (Short password and) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 571.0 570.0 Tm (maximum-length password) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 578.5 Tm (Values follow the documented password rule) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 869.0 578.5 Tm (Edge) Tj
+0.64 0.77 0.76 RG 0.3 w
+37 561.5 m 37 535.5 l S
+95 561.5 m 95 535.5 l S
+157 561.5 m 157 535.5 l S
+281 561.5 m 281 535.5 l S
+407 561.5 m 407 535.5 l S
+567 561.5 m 567 535.5 l S
+677 561.5 m 677 535.5 l S
+865 561.5 m 865 535.5 l S
+947 561.5 m 947 535.5 l S
+37 535.5 m 1187 535.5 l S
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 41.0 552.5 Tm (TC-REG-06) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 99.0 552.5 Tm (Registration) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 161.0 552.5 Tm (Registration input with) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 161.0 544.0 Tm (spaces/special characters) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 285.0 552.5 Tm (Registration page is available) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 552.5 Tm (Submit a name with spaces and supported) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 544.0 Tm (punctuation) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 571.0 552.5 Tm (Anne-Marie O'Neil) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 552.5 Tm (Valid supported data is stored safely and) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 544.0 Tm (consistently) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 869.0 552.5 Tm (Edge) Tj
+0.94 0.98 0.97 rg 37 518 1150 17.5 re f
+0.64 0.77 0.76 RG 0.3 w
+37 535.5 m 37 518 l S
+95 535.5 m 95 518 l S
+157 535.5 m 157 518 l S
+281 535.5 m 281 518 l S
+407 535.5 m 407 518 l S
+567 535.5 m 567 518 l S
+677 535.5 m 677 518 l S
+865 535.5 m 865 518 l S
+947 535.5 m 947 518 l S
+37 518 m 1187 518 l S
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 41.0 526.5 Tm (TC-LOG-01) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 99.0 526.5 Tm (Login) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 161.0 526.5 Tm (Login with valid credentials) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 285.0 526.5 Tm (Registered user exists) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 526.5 Tm (Submit the correct email and password) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 571.0 526.5 Tm (Registered email/password) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 526.5 Tm (Login succeeds and a session/token is issued) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 869.0 526.5 Tm (Positive) Tj
+0.64 0.77 0.76 RG 0.3 w
+37 518 m 37 500.5 l S
+95 518 m 95 500.5 l S
+157 518 m 157 500.5 l S
+281 518 m 281 500.5 l S
+407 518 m 407 500.5 l S
+567 518 m 567 500.5 l S
+677 518 m 677 500.5 l S
+865 518 m 865 500.5 l S
+947 518 m 947 500.5 l S
+37 500.5 m 1187 500.5 l S
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 41.0 509.0 Tm (TC-LOG-02) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 99.0 509.0 Tm (Login) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 161.0 509.0 Tm (Incorrect password) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 285.0 509.0 Tm (Registered user exists) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 509.0 Tm (Submit the wrong password) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 571.0 509.0 Tm (Correct email, wrong password) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 509.0 Tm (Login fails with a safe error) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 869.0 509.0 Tm (Negative) Tj
+0.94 0.98 0.97 rg 37 474.5 1150 26 re f
+0.64 0.77 0.76 RG 0.3 w
+37 500.5 m 37 474.5 l S
+95 500.5 m 95 474.5 l S
+157 500.5 m 157 474.5 l S
+281 500.5 m 281 474.5 l S
+407 500.5 m 407 474.5 l S
+567 500.5 m 567 474.5 l S
+677 500.5 m 677 474.5 l S
+865 500.5 m 865 474.5 l S
+947 500.5 m 947 474.5 l S
+37 474.5 m 1187 474.5 l S
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 41.0 491.5 Tm (TC-LOG-03) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 99.0 491.5 Tm (Login) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 161.0 491.5 Tm (Unknown user) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 285.0 491.5 Tm (No account uses the email) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 491.5 Tm (Submit login details) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 571.0 491.5 Tm (missing@example.com) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 491.5 Tm (Login fails without exposing unnecessary account) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 483.0 Tm (details) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 869.0 491.5 Tm (Negative) Tj
+0.64 0.77 0.76 RG 0.3 w
+37 474.5 m 37 448.5 l S
+95 474.5 m 95 448.5 l S
+157 474.5 m 157 448.5 l S
+281 474.5 m 281 448.5 l S
+407 474.5 m 407 448.5 l S
+567 474.5 m 567 448.5 l S
+677 474.5 m 677 448.5 l S
+865 474.5 m 865 448.5 l S
+947 474.5 m 947 448.5 l S
+37 448.5 m 1187 448.5 l S
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 41.0 465.5 Tm (TC-LOG-04) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 99.0 465.5 Tm (Login) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 161.0 465.5 Tm (Missing or invalid fields) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 285.0 465.5 Tm (Login page is available) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 465.5 Tm (Submit blank email, blank password, and) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 457.0 Tm (malformed email) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 571.0 465.5 Tm (Empty values; bad-email) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 465.5 Tm (Validation or authentication error is returned; no) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 457.0 Tm (session is created) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 869.0 465.5 Tm (Negative) Tj
+0.94 0.98 0.97 rg 37 422.5 1150 26 re f
+0.64 0.77 0.76 RG 0.3 w
+37 448.5 m 37 422.5 l S
+95 448.5 m 95 422.5 l S
+157 448.5 m 157 422.5 l S
+281 448.5 m 281 422.5 l S
+407 448.5 m 407 422.5 l S
+567 448.5 m 567 422.5 l S
+677 448.5 m 677 422.5 l S
+865 448.5 m 865 422.5 l S
+947 448.5 m 947 422.5 l S
+37 422.5 m 1187 422.5 l S
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 41.0 439.5 Tm (TC-LOG-05) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 99.0 439.5 Tm (Login) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 161.0 439.5 Tm (Protected task list while logged) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 161.0 431.0 Tm (out) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 285.0 439.5 Tm (No valid session exists) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 439.5 Tm (Request the task list directly) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 571.0 439.5 Tm (No token) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 439.5 Tm (Request is rejected or redirected to login) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 869.0 439.5 Tm (Negative) Tj
+0.64 0.77 0.76 RG 0.3 w
+37 422.5 m 37 405 l S
+95 422.5 m 95 405 l S
+157 422.5 m 157 405 l S
+281 422.5 m 281 405 l S
+407 422.5 m 407 405 l S
+567 422.5 m 567 405 l S
+677 422.5 m 677 405 l S
+865 422.5 m 865 405 l S
+947 422.5 m 947 405 l S
+37 405 m 1187 405 l S
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 41.0 413.5 Tm (TC-LOG-06) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 99.0 413.5 Tm (Login) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 161.0 413.5 Tm (Logout ends access) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 285.0 413.5 Tm (User is logged in) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 413.5 Tm (Logout, then request the task list) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 571.0 413.5 Tm (Valid session before logout) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 413.5 Tm (Old session/token cannot access protected tasks) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 869.0 413.5 Tm (Positive) Tj
+0.94 0.98 0.97 rg 37 387.5 1150 17.5 re f
+0.64 0.77 0.76 RG 0.3 w
+37 405 m 37 387.5 l S
+95 405 m 95 387.5 l S
+157 405 m 157 387.5 l S
+281 405 m 281 387.5 l S
+407 405 m 407 387.5 l S
+567 405 m 567 387.5 l S
+677 405 m 677 387.5 l S
+865 405 m 865 387.5 l S
+947 405 m 947 387.5 l S
+37 387.5 m 1187 387.5 l S
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 41.0 396.0 Tm (TC-CRT-01) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 99.0 396.0 Tm (Create task) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 161.0 396.0 Tm (Create a valid task) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 285.0 396.0 Tm (User is logged in) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 396.0 Tm (Submit a task and then load the list) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 571.0 396.0 Tm (Buy milk) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 396.0 Tm (Task is created and appears once) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 869.0 396.0 Tm (Positive) Tj
+0.64 0.77 0.76 RG 0.3 w
+37 387.5 m 37 361.5 l S
+95 387.5 m 95 361.5 l S
+157 387.5 m 157 361.5 l S
+281 387.5 m 281 361.5 l S
+407 387.5 m 407 361.5 l S
+567 387.5 m 567 361.5 l S
+677 387.5 m 677 361.5 l S
+865 387.5 m 865 361.5 l S
+947 387.5 m 947 361.5 l S
+37 361.5 m 1187 361.5 l S
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 41.0 378.5 Tm (TC-CRT-02) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 99.0 378.5 Tm (Create task) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 161.0 378.5 Tm (Missing, empty, or) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 161.0 370.0 Tm (whitespace-only task) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 285.0 378.5 Tm (User is logged in) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 378.5 Tm (Submit without a title or with spaces only) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 571.0 378.5 Tm ("", " ") Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 378.5 Tm (Request is rejected; no blank record is saved) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 869.0 378.5 Tm (Negative) Tj
+0.94 0.98 0.97 rg 37 335.5 1150 26 re f
+0.64 0.77 0.76 RG 0.3 w
+37 361.5 m 37 335.5 l S
+95 361.5 m 95 335.5 l S
+157 361.5 m 157 335.5 l S
+281 361.5 m 281 335.5 l S
+407 361.5 m 407 335.5 l S
+567 361.5 m 567 335.5 l S
+677 361.5 m 677 335.5 l S
+865 361.5 m 865 335.5 l S
+947 361.5 m 947 335.5 l S
+37 335.5 m 1187 335.5 l S
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 41.0 352.5 Tm (TC-CRT-03) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 99.0 352.5 Tm (Create task) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 161.0 352.5 Tm (Long or unexpected task input) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 285.0 352.5 Tm (User is logged in) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 352.5 Tm (Submit text at and over the configured) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 344.0 Tm (limit) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 571.0 352.5 Tm (Long title, special) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 571.0 344.0 Tm (characters) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 352.5 Tm (Limit and encoding rules are applied; server does) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 344.0 Tm (not crash) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 869.0 352.5 Tm (Edge) Tj
+0.64 0.77 0.76 RG 0.3 w
+37 335.5 m 37 309.5 l S
+95 335.5 m 95 309.5 l S
+157 335.5 m 157 309.5 l S
+281 335.5 m 281 309.5 l S
+407 335.5 m 407 309.5 l S
+567 335.5 m 567 309.5 l S
+677 335.5 m 677 309.5 l S
+865 335.5 m 865 309.5 l S
+947 335.5 m 947 309.5 l S
+37 309.5 m 1187 309.5 l S
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 41.0 326.5 Tm (TC-CRT-04) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 99.0 326.5 Tm (Create task) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 161.0 326.5 Tm (Create task without) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 161.0 318.0 Tm (authentication) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 285.0 326.5 Tm (No valid session exists) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 326.5 Tm (Send a create request directly) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 571.0 326.5 Tm (Valid task payload, no token) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 326.5 Tm (Request is rejected and no task is created) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 869.0 326.5 Tm (Negative) Tj
+0.94 0.98 0.97 rg 37 292 1150 17.5 re f
+0.64 0.77 0.76 RG 0.3 w
+37 309.5 m 37 292 l S
+95 309.5 m 95 292 l S
+157 309.5 m 157 292 l S
+281 309.5 m 281 292 l S
+407 309.5 m 407 292 l S
+567 309.5 m 567 292 l S
+677 309.5 m 677 292 l S
+865 309.5 m 865 292 l S
+947 309.5 m 947 292 l S
+37 292 m 1187 292 l S
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 41.0 300.5 Tm (TC-READ-01) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 99.0 300.5 Tm (View tasks) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 161.0 300.5 Tm (View existing tasks) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 285.0 300.5 Tm (Logged-in user has tasks) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 300.5 Tm (Request the task list) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 571.0 300.5 Tm (Two saved tasks) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 300.5 Tm (User sees the correct tasks and values) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 869.0 300.5 Tm (Positive) Tj
+0.64 0.77 0.76 RG 0.3 w
+37 292 m 37 274.5 l S
+95 292 m 95 274.5 l S
+157 292 m 157 274.5 l S
+281 292 m 281 274.5 l S
+407 292 m 407 274.5 l S
+567 292 m 567 274.5 l S
+677 292 m 677 274.5 l S
+865 292 m 865 274.5 l S
+947 292 m 947 274.5 l S
+37 274.5 m 1187 274.5 l S
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 41.0 283.0 Tm (TC-READ-02) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 99.0 283.0 Tm (View tasks) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 161.0 283.0 Tm (View an empty list) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 285.0 283.0 Tm (Logged-in user has no tasks) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 283.0 Tm (Request the task list) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 571.0 283.0 Tm (No saved tasks) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 283.0 Tm (Empty list or clear empty-state message is returned) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 869.0 283.0 Tm (Positive) Tj
+0.94 0.98 0.97 rg 37 248.5 1150 26 re f
+0.64 0.77 0.76 RG 0.3 w
+37 274.5 m 37 248.5 l S
+95 274.5 m 95 248.5 l S
+157 274.5 m 157 248.5 l S
+281 274.5 m 281 248.5 l S
+407 274.5 m 407 248.5 l S
+567 274.5 m 567 248.5 l S
+677 274.5 m 677 248.5 l S
+865 274.5 m 865 248.5 l S
+947 274.5 m 947 248.5 l S
+37 248.5 m 1187 248.5 l S
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 41.0 265.5 Tm (TC-READ-03) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 99.0 265.5 Tm (View tasks) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 161.0 265.5 Tm (User cannot view another user's) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 161.0 257.0 Tm (tasks) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 285.0 265.5 Tm (Two users have separate tasks) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 265.5 Tm (Log in as User B and request the list) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 571.0 265.5 Tm (User A and User B task data) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 265.5 Tm (Only User B's tasks are returned) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 869.0 265.5 Tm (Negative) Tj
+0.64 0.77 0.76 RG 0.3 w
+37 248.5 m 37 231 l S
+95 248.5 m 95 231 l S
+157 248.5 m 157 231 l S
+281 248.5 m 281 231 l S
+407 248.5 m 407 231 l S
+567 248.5 m 567 231 l S
+677 248.5 m 677 231 l S
+865 248.5 m 865 231 l S
+947 248.5 m 947 231 l S
+37 231 m 1187 231 l S
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 41.0 239.5 Tm (TC-UPD-01) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 99.0 239.5 Tm (Edit task) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 161.0 239.5 Tm (Edit an existing task) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 285.0 239.5 Tm (User owns a task and is logged in) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 239.5 Tm (Change the title and save; reload the list) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 571.0 239.5 Tm (Old title to New title) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 239.5 Tm (New value is saved and displayed) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 869.0 239.5 Tm (Positive) Tj
+0.94 0.98 0.97 rg 37 213.5 1150 17.5 re f
+0.64 0.77 0.76 RG 0.3 w
+37 231 m 37 213.5 l S
+95 231 m 95 213.5 l S
+157 231 m 157 213.5 l S
+281 231 m 281 213.5 l S
+407 231 m 407 213.5 l S
+567 231 m 567 213.5 l S
+677 231 m 677 213.5 l S
+865 231 m 865 213.5 l S
+947 231 m 947 213.5 l S
+37 213.5 m 1187 213.5 l S
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 41.0 222.0 Tm (TC-UPD-02) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 99.0 222.0 Tm (Edit task) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 161.0 222.0 Tm (Edit with missing/empty title) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 285.0 222.0 Tm (User owns a task) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 222.0 Tm (Submit an update with blank title) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 571.0 222.0 Tm ("") Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 222.0 Tm (Update is rejected and old value remains) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 869.0 222.0 Tm (Negative) Tj
+0.64 0.77 0.76 RG 0.3 w
+37 213.5 m 37 187.5 l S
+95 213.5 m 95 187.5 l S
+157 213.5 m 157 187.5 l S
+281 213.5 m 281 187.5 l S
+407 213.5 m 407 187.5 l S
+567 213.5 m 567 187.5 l S
+677 213.5 m 677 187.5 l S
+865 213.5 m 865 187.5 l S
+947 213.5 m 947 187.5 l S
+37 187.5 m 1187 187.5 l S
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 41.0 204.5 Tm (TC-UPD-03) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 99.0 204.5 Tm (Edit task) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 161.0 204.5 Tm (Update a missing task) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 285.0 204.5 Tm (User is logged in) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 204.5 Tm (Submit update for an unknown ID) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 571.0 204.5 Tm (does-not-exist) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 204.5 Tm (Not-found response is returned; no other task) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 196.0 Tm (changes) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 869.0 204.5 Tm (Negative) Tj
+0.94 0.98 0.97 rg 37 161.5 1150 26 re f
+0.64 0.77 0.76 RG 0.3 w
+37 187.5 m 37 161.5 l S
+95 187.5 m 95 161.5 l S
+157 187.5 m 157 161.5 l S
+281 187.5 m 281 161.5 l S
+407 187.5 m 407 161.5 l S
+567 187.5 m 567 161.5 l S
+677 187.5 m 677 161.5 l S
+865 187.5 m 865 161.5 l S
+947 187.5 m 947 161.5 l S
+37 161.5 m 1187 161.5 l S
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 41.0 178.5 Tm (TC-UPD-04) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 99.0 178.5 Tm (Edit task) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 161.0 178.5 Tm (Update another user's task) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 285.0 178.5 Tm (User A owns the task; User B is) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 285.0 170.0 Tm (logged in) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 178.5 Tm (Submit update using User A's ID) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 571.0 178.5 Tm (User A task ID) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 178.5 Tm (Request is rejected and User A's task is unchanged) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 869.0 178.5 Tm (Negative) Tj
+0.64 0.77 0.76 RG 0.3 w
+37 161.5 m 37 144 l S
+95 161.5 m 95 144 l S
+157 161.5 m 157 144 l S
+281 161.5 m 281 144 l S
+407 161.5 m 407 144 l S
+567 161.5 m 567 144 l S
+677 161.5 m 677 144 l S
+865 161.5 m 865 144 l S
+947 161.5 m 947 144 l S
+37 144 m 1187 144 l S
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 41.0 152.5 Tm (TC-DEL-01) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 99.0 152.5 Tm (Delete task) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 161.0 152.5 Tm (Delete an existing task) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 285.0 152.5 Tm (User owns a task and is logged in) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 152.5 Tm (Delete the task; reload the list) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 571.0 152.5 Tm (Existing task ID) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 152.5 Tm (Delete succeeds and task no longer appears) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 869.0 152.5 Tm (Positive) Tj
+0.94 0.98 0.97 rg 37 118 1150 26 re f
+0.64 0.77 0.76 RG 0.3 w
+37 144 m 37 118 l S
+95 144 m 95 118 l S
+157 144 m 157 118 l S
+281 144 m 281 118 l S
+407 144 m 407 118 l S
+567 144 m 567 118 l S
+677 144 m 677 118 l S
+865 144 m 865 118 l S
+947 144 m 947 118 l S
+37 118 m 1187 118 l S
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 41.0 135.0 Tm (TC-DEL-02) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 99.0 135.0 Tm (Delete task) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 161.0 135.0 Tm (Delete a missing task) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 285.0 135.0 Tm (User is logged in) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 135.0 Tm (Delete an unknown ID) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 571.0 135.0 Tm (does-not-exist) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 135.0 Tm (Not-found response is returned without deleting) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 126.5 Tm (another task) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 869.0 135.0 Tm (Negative) Tj
+0.64 0.77 0.76 RG 0.3 w
+37 118 m 37 100.5 l S
+95 118 m 95 100.5 l S
+157 118 m 157 100.5 l S
+281 118 m 281 100.5 l S
+407 118 m 407 100.5 l S
+567 118 m 567 100.5 l S
+677 118 m 677 100.5 l S
+865 118 m 865 100.5 l S
+947 118 m 947 100.5 l S
+37 100.5 m 1187 100.5 l S
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 41.0 109.0 Tm (TC-DEL-03) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 99.0 109.0 Tm (Delete task) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 161.0 109.0 Tm (Delete without authentication) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 285.0 109.0 Tm (No valid session exists) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 109.0 Tm (Send a delete request directly) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 571.0 109.0 Tm (Existing task ID, no token) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 109.0 Tm (Request is rejected and task remains) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 869.0 109.0 Tm (Negative) Tj
+0.94 0.98 0.97 rg 37 74.5 1150 26 re f
+0.64 0.77 0.76 RG 0.3 w
+37 100.5 m 37 74.5 l S
+95 100.5 m 95 74.5 l S
+157 100.5 m 157 74.5 l S
+281 100.5 m 281 74.5 l S
+407 100.5 m 407 74.5 l S
+567 100.5 m 567 74.5 l S
+677 100.5 m 677 74.5 l S
+865 100.5 m 865 74.5 l S
+947 100.5 m 947 74.5 l S
+37 74.5 m 1187 74.5 l S
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 41.0 91.5 Tm (TC-ERR-01) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 99.0 91.5 Tm (Error handling) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 161.0 91.5 Tm (Malformed request) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 285.0 91.5 Tm (API is available) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 91.5 Tm (Send invalid JSON, wrong field type, or) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 83.0 Tm (unknown ID) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 571.0 91.5 Tm (title: [], broken JSON) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 91.5 Tm (Controlled 4xx response is returned; server does not) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 83.0 Tm (crash) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 869.0 91.5 Tm (Negative) Tj
+0.64 0.77 0.76 RG 0.3 w
+37 74.5 m 37 48.5 l S
+95 74.5 m 95 48.5 l S
+157 74.5 m 157 48.5 l S
+281 74.5 m 281 48.5 l S
+407 74.5 m 407 48.5 l S
+567 74.5 m 567 48.5 l S
+677 74.5 m 677 48.5 l S
+865 74.5 m 865 48.5 l S
+947 74.5 m 947 48.5 l S
+37 48.5 m 1187 48.5 l S
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 41.0 65.5 Tm (TC-ERR-02) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 99.0 65.5 Tm (Error handling) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 161.0 65.5 Tm (API/database failure) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 285.0 65.5 Tm (Failure can be simulated in a test) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 285.0 57.0 Tm (environment) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 65.5 Tm (Load or save while service returns) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 57.0 Tm (500/timeout) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 571.0 65.5 Tm (Simulated failure) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 65.5 Tm (Clear error is returned and data is not falsely) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 57.0 Tm (reported as saved) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 869.0 65.5 Tm (Negative) Tj
+0.08 0.39 0.42 rg 0 0 1224 28 re f
+1 1 1 rg /F2 7.5 Tf 1 0 0 1 36.0 10.0 Tm (VIRTUBOX  /  QUALITY REVIEW) Tj
+1 1 1 rg /F2 7.5 Tf 1 0 0 1 1146.0 10.0 Tm (PAGE 1) Tj
+endstream
+endobj
+4 0 obj
+<< /Length 1926 >>
+stream
+0.08 0.39 0.42 rg 37 741 7 28 re f
+0.06 0.16 0.18 rg /F2 20 Tf 1 0 0 1 53.0 748.0 Tm (TEST CASE CATALOGUE) Tj
+0.28 0.38 0.40 rg /F1 9 Tf 1 0 0 1 53.0 733.0 Tm (Structured validation coverage for the VirtuBox task application.) Tj
+0.08 0.39 0.42 rg 37 683 1150 27 re f
+1 1 1 rg /F2 7.1 Tf 1 0 0 1 41.0 699.0 Tm (Test Case ID) Tj
+1 1 1 rg /F2 7.1 Tf 1 0 0 1 99.0 699.0 Tm (Module) Tj
+1 1 1 rg /F2 7.1 Tf 1 0 0 1 161.0 699.0 Tm (Test Scenario) Tj
+1 1 1 rg /F2 7.1 Tf 1 0 0 1 285.0 699.0 Tm (Precondition) Tj
+1 1 1 rg /F2 7.1 Tf 1 0 0 1 411.0 699.0 Tm (Test Steps) Tj
+1 1 1 rg /F2 7.1 Tf 1 0 0 1 571.0 699.0 Tm (Test Data) Tj
+1 1 1 rg /F2 7.1 Tf 1 0 0 1 681.0 699.0 Tm (Expected Result) Tj
+1 1 1 rg /F2 7.1 Tf 1 0 0 1 869.0 699.0 Tm (Type) Tj
+1 1 1 rg /F2 7.1 Tf 1 0 0 1 869.0 690.0 Tm (\(Positive/Negative/Edge\)) Tj
+0.94 0.98 0.97 rg 37 665.5 1150 17.5 re f
+0.64 0.77 0.76 RG 0.3 w
+37 683 m 37 665.5 l S
+95 683 m 95 665.5 l S
+157 683 m 157 665.5 l S
+281 683 m 281 665.5 l S
+407 683 m 407 665.5 l S
+567 683 m 567 665.5 l S
+677 683 m 677 665.5 l S
+865 683 m 865 665.5 l S
+947 683 m 947 665.5 l S
+37 665.5 m 1187 665.5 l S
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 41.0 674.0 Tm (TC-ERR-03) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 99.0 674.0 Tm (Error handling) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 161.0 674.0 Tm (Duplicate request) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 285.0 674.0 Tm (User is logged in) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 411.0 674.0 Tm (Repeat a create or delete request quickly) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 571.0 674.0 Tm (Same payload/ID twice) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 681.0 674.0 Tm (No unintended duplicate or unrelated deletion occurs) Tj
+0.06 0.13 0.14 rg /F1 6.65 Tf 1 0 0 1 869.0 674.0 Tm (Edge) Tj
+0.08 0.39 0.42 rg 0 0 1224 28 re f
+1 1 1 rg /F2 7.5 Tf 1 0 0 1 36.0 10.0 Tm (VIRTUBOX  /  QUALITY REVIEW) Tj
+1 1 1 rg /F2 7.5 Tf 1 0 0 1 1146.0 10.0 Tm (PAGE 2) Tj
+endstream
+endobj
+5 0 obj
+<< /Type /Pages /Kids [6 0 R 7 0 R] /Count 2 >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 5 0 R /MediaBox [0 0 1224 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 3 0 R >>
+endobj
+7 0 obj
+<< /Type /Page /Parent 5 0 R /MediaBox [0 0 1224 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 4 0 R >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 5 0 R >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000085 00000 n 
+0000000160 00000 n 
+0000029086 00000 n 
+0000031064 00000 n 
+0000031127 00000 n 
+0000031264 00000 n 
+0000031401 00000 n 
+trailer
+<< /Size 9 /Root 8 0 R >>
+startxref
+31450
+%%EOF
